@@ -1,0 +1,29 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Um jogo de tabuada com a Alexa",
+          "examplePhrases": [           
+          ],
+          "name": "JogoTabuada",
+          "description": "Venha testar seus conhecimentos em tabuada com a Alexa"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [
+        "BR"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir":"lambda"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
